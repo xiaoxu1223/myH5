@@ -1,1 +1,23 @@
-theme: jekyll-theme-merlot
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <base target="_blank">
+    <!--base标签就是专门用来统一指定当前网页中所有的超链接需要如何打开。
+</head>
+<body>
+    <a href="#123">点击跳转</a>
+    <!--假链接，这种跳转方式是没有过渡（滚动）的过程的，直接跳转。-->
+    <p id="123">可以</p>
+    <p>可以</p>
+    <br>
+    <!--换行-->
+    <hr/>
+    <!--水平横线-->
+    <p>可以</p>
+    <a href="....." target="_blank">这是个超链接，下划线是蓝色，在css中可更改</a>
+    <img src="..." width="60px" height="343px" border="5">，它不会独占一行；手动指定了
+    <!--img宽度和高度，如果不想让图片变形，可以指定宽或者高的一个值即可，只要指定了其中一个值，系统会自动计算出另一个值-->
+</body>
+</html>
